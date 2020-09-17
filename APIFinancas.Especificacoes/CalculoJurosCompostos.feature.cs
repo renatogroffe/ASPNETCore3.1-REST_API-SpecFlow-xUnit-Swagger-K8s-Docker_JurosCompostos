@@ -19,7 +19,7 @@ namespace APIFinancas.Especificacoes
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public partial class ConversaoDeTemperaturasEmFahrenheitFeature : object, Xunit.IClassFixture<ConversaoDeTemperaturasEmFahrenheitFeature.FixtureData>, System.IDisposable
+    public partial class CalculoDeJurosCompostosFeature : object, Xunit.IClassFixture<CalculoDeJurosCompostosFeature.FixtureData>, System.IDisposable
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -31,7 +31,7 @@ namespace APIFinancas.Especificacoes
 #line 1 "CalculoJurosCompostos.feature"
 #line hidden
         
-        public ConversaoDeTemperaturasEmFahrenheitFeature(ConversaoDeTemperaturasEmFahrenheitFeature.FixtureData fixtureData, APIFinancas_Especificacoes_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        public CalculoDeJurosCompostosFeature(CalculoDeJurosCompostosFeature.FixtureData fixtureData, APIFinancas_Especificacoes_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
         {
             this._testOutputHelper = testOutputHelper;
             this.TestInitialize();
@@ -40,7 +40,7 @@ namespace APIFinancas.Especificacoes
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt-BR"), "", "Conversão de temperaturas em Fahrenheit", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt-BR"), "", "Cálculo de Juros Compostos", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -81,7 +81,7 @@ namespace APIFinancas.Especificacoes
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoJurosCompostos01")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Cálculo de Juros Compostos")]
         [Xunit.TraitAttribute("Description", "SimulacaoJurosCompostos01")]
         public virtual void SimulacaoJurosCompostos01()
         {
@@ -128,7 +128,7 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoJurosCompostos02")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Cálculo de Juros Compostos")]
         [Xunit.TraitAttribute("Description", "SimulacaoJurosCompostos02")]
         public virtual void SimulacaoJurosCompostos02()
         {
@@ -175,7 +175,7 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoJurosCompostos03")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Cálculo de Juros Compostos")]
         [Xunit.TraitAttribute("Description", "SimulacaoJurosCompostos03")]
         public virtual void SimulacaoJurosCompostos03()
         {
@@ -222,7 +222,7 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoJurosCompostos04")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Cálculo de Juros Compostos")]
         [Xunit.TraitAttribute("Description", "SimulacaoJurosCompostos04")]
         public virtual void SimulacaoJurosCompostos04()
         {
@@ -269,7 +269,7 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoJurosCompostos05")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Cálculo de Juros Compostos")]
         [Xunit.TraitAttribute("Description", "SimulacaoJurosCompostos05")]
         public virtual void SimulacaoJurosCompostos05()
         {
@@ -322,12 +322,12 @@ this.ScenarioInitialize(scenarioInfo);
             
             public FixtureData()
             {
-                ConversaoDeTemperaturasEmFahrenheitFeature.FeatureSetup();
+                CalculoDeJurosCompostosFeature.FeatureSetup();
             }
             
             void System.IDisposable.Dispose()
             {
-                ConversaoDeTemperaturasEmFahrenheitFeature.FeatureTearDown();
+                CalculoDeJurosCompostosFeature.FeatureTearDown();
             }
         }
     }

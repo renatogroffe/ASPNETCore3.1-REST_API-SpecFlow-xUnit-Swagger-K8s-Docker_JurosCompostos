@@ -1,4 +1,4 @@
-﻿Funcionalidade: Conversão de temperaturas em Fahrenheit
+﻿Funcionalidade: Cálculo de Juros Compostos
 
 Cenário: SimulacaoJurosCompostos01
 	Dado que o valor o valor do empréstimo é de R$ 10.000,00
